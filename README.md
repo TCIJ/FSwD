@@ -38,10 +38,10 @@ These [tabs](https://www.one-tab.com/page/JkfVibrkRyuw8EeOIscRag) will take you 
 Module 3 is entirely remote - you do the work in your own time, preferably on day 3 in order to bring any questions or issues you encounter to discussion at the beginning of Module 4.
 
 -  Rather than spending a whole live session being bombarded with new information, you can come prepared, possibly having had a chance to try some of the techniques for yourself, or ready to ask questions and solve them in the session. 
--   [ImportHTML](https://youtu.be/h3Nyld3wNzY) - converting a table from a web page to a spreadsheet, using Googlesheets
+-   [ImportHTML](https://youtu.be/h3Nyld3wNzY) - converting a table from a web page to a spreadsheet, using Googlesheets. NB - since making this video it has become impossible (for reasons we cannot understand!)  to scrape the parliament.uk data shown in the video. If you want to work with that data, take the pdf version and convert it to csv (as shown below). Or you can try using the free Chrome extension [Instant Data Scraper](https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah) - for reasons we don't understand, this DOES work!
 -   [Clean with Open Refine](https://youtu.be/HCeH8QMHvmQ) - cleaning names in a dataset where slight differences make the computer see them as different entries
 -   [Export your OpenRefine project](https://youtu.be/UWJIu0Ss4eU) How to convert your data back to Excel/Googlesheets after cleaning it in OpenRefine. The source table is this [Wikipedia page](https://en.wikipedia.org/wiki/List_of_MPs_elected_in_the_2019_United_Kingdom_general_election) if you want to follow the same steps
--   [Reconcile with Open Refine](https://youtu.be/3CV6rEn0stM) Matching names in a column in OpenRefine with company names on OpenCorporates.com. NB – to make use of the OpenCorporates reconciliation service you need to add this address to the reconciliation menu in OpenRefine https://opencorporates.com/reconcile (see 1.18” in this video). See [here](https://api.opencorporates.com/documentation/Reconciliation_API_documentation_v0.1.pdf) for documentation
+-   [Reconcile with Open Refine](https://youtu.be/3CV6rEn0stM) Matching names in a column in OpenRefine with company names on OpenCorporates.com. NB – to make use of the OpenCorporates reconciliation service you need to add this address to the reconciliation menu in OpenRefine https://opencorporates.com/reconcile (see 1.18” in this video). See [here](https://api.opencorporates.com/documentation/Reconciliation_API_documentation_v0.1.pdf) for documentation. NB In order to make this work with your copy of OpenRefine, you will also need to create an OpenCorporates account, and apply for a (free) API key. OpenCorporates will then add your IP address to their list of users whose computers are allowed to use the reconcile function.
 -   [Convert tables](https://youtu.be/xZ_sPdJtOLo) in pdf files to csv spreadsheets with [Tabula](https://tabula.technology/) another excellent free program
 -   Enhance one dataset by merging relevant data from another using the [Vlookup](https://youtu.be/NCBP8Z1x_RY) formula. 
 -   [Clean names](https://youtu.be/tCET1qWOb3U) with OpenRefine - Remove honorifics such as “Mr”, “Mrs”, “Dr, while also creating a reproducible script to save time doing the same job on future occasions
@@ -60,7 +60,7 @@ and
 -   Although OpenRefine contains links to useful instructional videos, [this pdf](https://github.com/Stonepeople/FSiD/blob/main/OPEN%20REFINE%20STARTER%20NOTES_JS.pdf) is intended as a useful written guide to get you started
 
 -   Reconciling lists using OpenRefine is covered in [this pdf](https://github.com/Stonepeople/FSiD/blob/main/Reconciling%20in%20OpenRefine.pdf)
-
+-   In September 2024 we added an optional presentation on webscraping, which also introduces APIs, and why you need to know about them. The summary of the presentation is in [this pdf](https://1drv.ms/b/s!AkCB08o5241CjMMBLfL69qBakjHa0Q?e=qOUpCd)
 -   [Scraping the web](https://github.com/Stonepeople/FSiD/blob/main/scraping%20the%20web.pdf) is an excellent tipsheet from [IRE](https://www.ire.org/) (it's well worth joining IRE. At around $70 a year it's worth  joining just for the library of tipsheets!)
 
 When you're ready to do some more practice, read on:
