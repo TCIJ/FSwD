@@ -2,54 +2,71 @@
 
 # FINDING STORIES WITH DATA
 
-Files accompanying [CIJ course](https://tcij.org/scheduled-training) Finding Stories with Data
+On this page you will find files and exercises which accompany [CIJ course](https://tcij.org/scheduled-training) Finding Stories with Data.
 
 **Module 1**
 
--   You will need [this file](https://github.com/Stonepeople/FSiD/blob/main/donations2019_2020_Exercise.xlsx) which
-    contains exercises consolidating the skills taught in session 1.
+-   After session 1, it will help you to consolidate what you learned by downloading [this file](https://github.com/Stonepeople/FSiD/blob/main/donations2019_2020_Exercise.xlsx) and trying the exercises which are contained within it. NB - the data is similar to what we used in class, but it's older, so the results will not be the same as they were during the session. 
 
 -   [This](https://github.com/Stonepeople/FSiD/blob/main/Interviewing_data.pdf) is the short presentation
 
--   -   If you just want to read about pivot tables [this pdf](https://github.com/Stonepeople/FSiD/blob/main/PIVOT%20TABLES.pdf) is all you need
+-   -   If you just want to read about pivot tables [this pdf](https://github.com/Stonepeople/FSiD/blob/main/PIVOT%20TABLES.pdf) is all you need.
+    -   If you have had enough of political donations for now, try downloading a dataset about something you're interested in - [this gov.uk site](https://www.gov.uk/government/statistical-data-sets) is a great place to start. We will of course be covering how to find data in more detail in session 2. 
 
--   [Spreadsheets for journalists](https://github.com/Stonepeople/FSiD/blob/main/SPREADSHEETS%20FOR%20JOURNALISTS%20HANDOUT.pdf) is the
-    handout I wrote for a one-day course covering everything we now do in the 4 online sessions of Finding Stories with Data
+
 
 **Module 2**
 
--   This is the [presentation](https://github.com/Stonepeople/FSiD/blob/main/FindingData.pdf) on Finding Data used in module 2
+-    Finding data quickly and efficiently is a skill that's worth practicing; the best sites and tricks will depend on the beat you're working on, and we can't cover everything in a single session. So you will probably find it helpful to download the fuller list of advanced operators the [Cheatsheet](https://github.com/Stonepeople/FSiD/blob/main/GoogleguideCheatSheet.pdf) from [googleduide.com](http://www.googleguide.com/print/adv_op_ref.pdf).
+-    You may also want to read  this excellent [Guide to Google Dorking (another name for advanced searching)](https://exposingtheinvisible.org/guides/google-dorking/) to get a deeper insight into what we did, and how it can help your investigation. It also covers some important security issues.
+-    If it helps - you can download the [presentation on finding data](https://github.com/Stonepeople/FSiD/blob/main/FindingData.pdf) which we went through in class.
 
--   [Follow the Money](https://github.com/Stonepeople/FSiD/blob/main/FollowTheMoney.pdf) is a set of links to help get you started if you're interested in financial stories
-
--   A fuller list of advanced operators the [Cheatsheet](https://github.com/Stonepeople/FSiD/blob/main/GoogleguideCheatSheet.pdf) is downloaded from [googleduide.com](http://www.googleguide.com/print/adv_op_ref.pdf). You may also want to read  this excellent [Guide to Google Dorking (another name for advanced searching)](https://exposingtheinvisible.org/guides/google-dorking/) to get a deeper insight into what we did, and how it can help your investigation. It also covers some important security issues. 
-
--   Links from the [Finding data presentation](https://github.com/Stonepeople/FSiD/blob/main/Links%20from%20FindingData.pdf)
+-  If money is your beat, this set of links will help to get you started [Follow the Money](https://github.com/Stonepeople/FSiD/blob/main/FollowTheMoney.pdf). 
+-  
+-   This link will take you to a list of links used in the the [Finding data presentation](https://github.com/Stonepeople/FSiD/blob/main/Links%20from%20FindingData.pdf)
 
 The [Awesome Public Datasets repo](https://github.com/awesomedata/awesome-public-datasets) as the name suggests - is awesome!
 
--  a set of generally [useful links](https://github.com/Stonepeople/FSiD/blob/main/USEFUL%20LINKS%20TO%20DATA.pdf) to help get you started
+-  And this set of generally [useful links](https://github.com/Stonepeople/FSiD/blob/main/USEFUL%20LINKS%20TO%20DATA.pdf) may also help get you started.
 
 These [tabs](https://www.one-tab.com/page/JkfVibrkRyuw8EeOIscRag) will take you to the information and sites in the main presentation
 
 
 
 **Module 3**
-Module 3 is entirely remote - you do the work in your own time, preferably on day 3 in order to bring any questions or issues you encounter to discussion at the beginning of Module 4.
+Module 3 is entirely remote - you do the work in your own time, preferably between module 2 and module 4 in order to bring any questions or issues you encounter to discussion at the beginning of Module 4.
 
 -  Rather than spending a whole live session being bombarded with new information, you can come prepared, possibly having had a chance to try some of the techniques for yourself, or ready to ask questions and solve them in the session. 
--   [ImportHTML](https://youtu.be/h3Nyld3wNzY) - converting a table from a web page to a spreadsheet, using Googlesheets. NB - since making this video it has become impossible (for reasons we cannot understand!)  to scrape the parliament.uk data shown in the video. If you want to work with that data, take the pdf version and convert it to csv (as shown below). Or you can try using the free Chrome extension [Instant Data Scraper](https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah) - for reasons we don't understand, this DOES work!
--   [Clean with Open Refine](https://youtu.be/oJ3WqlwzeeE) - cleaning names in a dataset where slight differences make the computer see them as different entries
--   [Export your OpenRefine project](https://youtu.be/UWJIu0Ss4eU) How to convert your data back to Excel/Googlesheets after cleaning it in OpenRefine. The source table is this [Wikipedia page](https://en.wikipedia.org/wiki/List_of_MPs_elected_in_the_2019_United_Kingdom_general_election) if you want to follow the same steps
--   [Reconcile with Open Refine](https://youtu.be/3CV6rEn0stM) Matching names in a column in OpenRefine with company names on OpenCorporates.com. NB – to make use of the OpenCorporates reconciliation service you need to add this address to the reconciliation menu in OpenRefine https://opencorporates.com/reconcile (see 1.18” in this video). See [here](https://api.opencorporates.com/documentation/Reconciliation_API_documentation_v0.1.pdf) for documentation. NB In order to make this work with your copy of OpenRefine, you will also need to create an OpenCorporates account, and apply for a (free) API key. OpenCorporates will then add your IP address to their list of users whose computers are allowed to use the reconcile function.
--   [Convert tables](https://youtu.be/xZ_sPdJtOLo) in pdf files to csv spreadsheets with [Tabula](https://tabula.technology/) another excellent free program
--   Enhance one dataset by merging relevant data from another using the [Vlookup](https://youtu.be/NCBP8Z1x_RY) formula. 
--   [Clean names](https://youtu.be/tCET1qWOb3U) with OpenRefine - Remove honorifics such as “Mr”, “Mrs”, “Dr, while also creating a reproducible script to save time doing the same job on future occasions
--   [Power Query](https://youtu.be/9P6iyjPguok) A relatively new Excel feature which allows you to merge data without learning VLOOKUP. It also keeps a record of what you have done, so you can check or reproduce your work – eg when you use a later edition of the same data.
+-   [ImportHTML](https://youtu.be/h3Nyld3wNzY) - shows a simple way to scrape (convert a table from a web page to a spreadsheet) using a formula built into Googlesheets. This formula will get you a long way without needing to learn code. 
+-   NB - The importhtml formula works for many a site, but since making this video it has become impossible to scrape the parliament.uk data as shown. That data is now available as a [download](https://www.parliament.uk/mps-lords-and-offices/standards-and-financial-interests/parliamentary-commissioner-for-standards/registers-of-interests/register-of-interests-of-members-staff/) 
+  
+   - names, especially company names, can be rendered in a dataset in so many different ways, so it's worth learning how to use a tool which can identify these slight differences and correct them so that the computer can pull together all the data relating to the same entity. This video shows you the core function of openrefine [cleaning data](https://youtu.be/oJ3WqlwzeeE)
+ 
+     - Openrefine, crucially, doesn't edit the dataset you give it to clean - it works on it, within a browser window, and when you have done the cleaning, you need to "export" the data back to an xls or csv file. This video shows you how to [export your OpenRefine project](https://youtu.be/UWJIu0Ss4eU) To follow along using the same data you will need the source table from this [Wikipedia page](https://en.wikipedia.org/wiki/List_of_MPs_elected_in_the_2019_United_Kingdom_general_election). 
+
+-   Matching names in a column in OpenRefine with company names on OpenCorporates.com.To see how it's done, watch [this video](https://youtu.be/3CV6rEn0stM) 
+
+-   NB – to make use of the OpenCorporates reconciliation service you will need to add this address to the reconciliation menu in OpenRefine https://opencorporates.com/reconcile (see 1.18” in the video).
+
+-   See [here](https://api.opencorporates.com/documentation/Reconciliation_API_documentation_v0.1.pdf) for documentation.
+
+-   NB In order to make this work with your copy of OpenRefine, you will also need to create an OpenCorporates account, and apply for a (free) API key. OpenCorporates will then add your IP address to their list of users whose computers are allowed to use the reconcile function.
+
+-   When we first wrote this guide, we recommended [Tabula](https://tabula.technology/) as a free tool to extract tables from pdf files and save them as csv files. [This video](https://youtu.be/xZ_sPdJtOLo)walks you through the process.
+
+-   However - in the last 12 months or so, AI tools have begun to do the same job more quickly, and sometimes more accurately than Tabula and other pdf to csv conversion tools. You can ask various llm's to do the job, specifying the columns you want, and columns it can ignore. We have been getting excellent results with AI within a coding environment - so the AI not only does the job, it leaves you with a script you can use to do the same job when the pdf you need is next updated. 
+
+- 	One of the best ways to get ahead of competitors who have the same data as you is to combine your dataset with another in order to answer more questions, or dig out more detail. Before AI, everyone had to learn the VLOOKUP formula, which we demonstrate in [this video](https://youtu.be/NCBP8Z1x_RY).
+- 	In this example, where we wanted to add to the data showing donations to Members of Parliament, we also needed to clean the names - one dataset had honorifics (Mr, Mrs, Dr, The Rt Hon etc) which stopped us joining it to the other dataset which just included MPs names - so we demonstrate how to [clean names](https://youtu.be/tCET1qWOb3U) with OpenRefine. This process also creates a reproducible script which you can keep to save time when you do the same job in the future.
+  
+-   We also demonstrate [Power Query](https://youtu.be/9P6iyjPguok) This is an Excel feature which allows you to merge data without learning VLOOKUP. It also keeps a record of what you have done, so you can check or reproduce your work – eg when you use a later edition of the same data. In the age of AI, this may not be necessary - you can ask a Microsoft AI tool such as Co-Pilot to do all this for you. But it's worth knowing what it's going to do. 
 
 Practice material accompanying the videos
+
 •	To practice “VLookup” you need to download a copy of [this worksheet](https://github.com/Stonepeople/FSiD/blob/main/MPs_donations_vlookup_exercise.xlsx) containing the two datasets.
+
 •	If you want to practise cleaning the MPs names (removing titles etc) using OpenRefine as in the video "Cleaning names with OpenRefine", you will need to download a copy of [this dataset](https://github.com/Stonepeople/FSiD/blob/main/Donations_to_MPs.csv)
+
 •	To get a copy of the company donation data demonstrated in the cleaning and reconciling videos (2nd and 4th on the list), open [this link](http://search.electoralcommission.org.uk/?currentPage=1&rows=10&sort=AcceptedDate&order=desc&tab=1&open=filter&et=pp&et=ppm&et=tp&et=perpar&et=rd&isIrishSourceYes=true&isIrishSourceNo=true&date=Reported&from&to&quarters=2021Q1234&quarters=2020Q1234&prePoll=false&postPoll=true&donorStatus=company&register=gb&register=ni&register=none&optCols=Register&optCols=CampaigningName&optCols=AccountingUnitsAsCentralParty&optCols=IsSponsorship&optCols=IsIrishSource&optCols=RegulatedDoneeType&optCols=CompanyRegistrationNumber&optCols=Postcode&optCols=NatureOfDonation&optCols=PurposeOfVisit&optCols=DonationAction&optCols=ReportedDate&optCols=IsReportedPrePoll&optCols=ReportingPeriodName&optCols=IsBequest&optCols=IsAggregation) in a new tab, and download a copy of the resulting file - using the [Export results] button.
 
 •	To practice the Power Query demo with the data used in the [video](https://youtu.be/9P6iyjPguok) you will need to download copies of these two datasets:
@@ -57,11 +74,11 @@ Practice material accompanying the videos
 and
 [list of MPs elected in 2019](https://github.com/Stonepeople/FSiD/blob/main/ListofMPs2019election.csv)
 
--   Although OpenRefine contains links to useful instructional videos, [this pdf](https://github.com/Stonepeople/FSiD/blob/main/OPEN%20REFINE%20STARTER%20NOTES_JS.pdf) is intended as a useful written guide to get you started
+-   OpenRefine itself is well-documented, and the startup screen contains links to useful instructional videos. You may also find [this pdf](https://github.com/Stonepeople/FSiD/blob/main/OPEN%20REFINE%20STARTER%20NOTES_JS.pdf) a useful written guide to get you started
 
 -   Reconciling lists using OpenRefine is covered in [this pdf](https://github.com/Stonepeople/FSiD/blob/main/Reconciling%20in%20OpenRefine.pdf)
--   In September 2024 we added an optional presentation on webscraping, which also introduces APIs, and why you need to know about them. The summary of the presentation is in [this pdf](https://1drv.ms/b/s!AkCB08o5241CjMMBLfL69qBakjHa0Q?e=qOUpCd)
--   [Scraping the web](https://github.com/Stonepeople/FSiD/blob/main/scraping%20the%20web.pdf) is an excellent tipsheet from [IRE](https://www.ire.org/) (it's well worth joining IRE. At around $70 a year it's worth  joining just for the library of tipsheets!)
+-
+-   In September 2024 we added to the Finding Stories course an optional presentation on webscraping, which also introduces APIs, and why you need to know about them. The summary of the presentation is in [this pdf](https://1drv.ms/b/s!AkCB08o5241CjMMBLfL69qBakjHa0Q?e=qOUpCd) Meanwhile [Scraping the web](https://github.com/Stonepeople/FSiD/blob/main/scraping%20the%20web.pdf) is an excellent tipsheet from [IRE](https://www.ire.org/) (it's well worth joining IRE. At around $70 a year it's worth  joining just for the library of tipsheets!)
 
 When you're ready to do some more practice, read on:
 
